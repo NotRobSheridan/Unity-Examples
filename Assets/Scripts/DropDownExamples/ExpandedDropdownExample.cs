@@ -24,7 +24,7 @@ public class ExpandedDropdownExample : MonoBehaviour
         thisDropdown.ClearOptions();
     }
 
-    //Functions to be accessed by the event system upon pressing the relevant OnClick() event.
+    //Functions to be accessed by the event system upon pressing the relevant button with attached OnClick() event.
     //Functions must be public so they can be accessed by the event system.
     public void OnNames()
     {
