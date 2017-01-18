@@ -6,7 +6,7 @@
  using UnityEngine;
 using System.Collections;
 
-public class LightsRandomColors : MonoBehaviour {
+public class Menu_Randomcolors : MonoBehaviour {
 
     public Color newColor;
     public Light mainLight;
