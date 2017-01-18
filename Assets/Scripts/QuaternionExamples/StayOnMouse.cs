@@ -20,6 +20,6 @@ public class StayOnMouse : MonoBehaviour {
         mouse = Camera.main.ScreenToWorldPoint(mouse);
 
         //Apply the transformation to our object.
-        this.transform.position = new Vector3(mouse.x, mouse.y, mouse.z);
+        transform.position = new Vector3(mouse.x, mouse.y, mouse.z);
     }
 }
