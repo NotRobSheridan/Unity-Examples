@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class LerpColors : MonoBehaviour {
 
-    public Text rainbowText;
+    public Text lerpText;
     public Color changeColor;
     public Color lerpColorA = Color.white;
     public Color lerpColorB = Color.black;
@@ -20,7 +20,7 @@ public class LerpColors : MonoBehaviour {
         changeColor = Color.Lerp(lerpColorA, lerpColorB, Mathf.PingPong(Time.time, 1));
 
         //Apply the lerped coluor.
-        rainbowText.color = changeColor;
+        lerpText.color = changeColor;
 
     }
 
